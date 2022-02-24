@@ -22,7 +22,7 @@ public class MT01SingleThreadMultiThread {
                         Bir thread'in yapacagı action run() method içinde tanımlanır.
 
   *  public void start(): Bir thread'in baslatilmasini saglar.JVM, thread'in run() methodunu calistirir.
-​
+
   *  public void sleep(long miliseconds): Bir thread'in belirtilen sure (ms) boyunca bekletilmesini saglar.
   *  public void join(): Bir thread olmesini (bitmesi) beklemek icin kullanilir.
                         Thread'in olmesi beklendikten sonra sıradaki komutlar run edilir.Sıralı run işlemlerinde gayet önemlidir.
@@ -41,8 +41,7 @@ public class MT01SingleThreadMultiThread {
   *  public void interrupt(): Thread kesintiye ugratır.mevcut App çalışırken flash bellek takma gibi eş zamalılıgı kesmek için kullanılır.
                               Usp klavye port bu thread'i kullanır
     public boolean isInterrupted(): Bir thread'in kesilip kesilmediğni test eder.
-​
-​
+
      */
     public static void main(String[] args) throws InterruptedException {
         long singleBasla = System.currentTimeMillis();
