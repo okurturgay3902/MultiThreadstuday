@@ -1,6 +1,6 @@
 package com.example.multithreadstuday;
 
-public class MT02BlockLevelSynchronization {
+public class MT03BlockLevelSynchronization {
 
     /*
       Uygulamalarda bazen tüm metotudun synchronized yapılması gerekmeyebilir.
